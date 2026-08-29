@@ -24,8 +24,3 @@
 **Ask** — `git push` affects the remote and is irreversible without a force-push; I want to confirm each push but not block it entirely.
 
 **Deny** — `Read(./.env)` prevents Claude from reading secrets even if asked. `git push --force` is denied outright: a force-push to a shared branch can destroy teammates' work and is never something I want to happen automatically.
-
-## Verification
-
-Ran `/memory` — CLAUDE.md loaded successfully.
-Ran `/permissions` — allow/ask/deny rules confirmed.
